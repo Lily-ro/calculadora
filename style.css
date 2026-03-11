@@ -1,26 +1,28 @@
+/*Estilo general de la página */
 body{
 background: linear-gradient(135deg,#89f7fe,#66a6ff);
 font-family: Arial;
 }
-
+/* contenedor estilo de calculadora*/
 .calculadora{
 width:300px;
 border-radius:15px;
 }
 
+/*contenedor pantalla de operaciones */
 #pantalla{
 height:50px;
 font-size:22px;
 border-radius:10px;
 }
-
+/*estilo de todos los botones */
 button{
 height:60px;
 font-size:18px;
 border-radius:10px;
 transition:0.2s;
 }
-
+/* efecto de botón cursor*/
 button:hover{
 transform:scale(1.05);
 }
